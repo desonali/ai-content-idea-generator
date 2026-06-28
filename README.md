@@ -4,6 +4,10 @@ A small full-stack app that generates short-form video content ideas (TikTok/Ree
 for any topic, using an LLM API. Built as a portfolio project to practice integrating a
 **React frontend** with a **Python (FastAPI) backend** and a **Generative AI API**.
 
+## Demo
+
+![App screenshot](screenshot.png)
+
 ## Tech Stack
 
 - **Frontend:** React, Vite, fetch API
