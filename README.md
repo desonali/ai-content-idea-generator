@@ -8,7 +8,7 @@ for any topic, using an LLM API. Built as a portfolio project to practice integr
 
 - **Frontend:** React, Vite, fetch API
 - **Backend:** Python, FastAPI, Uvicorn
-- **AI:** OpenAI API (gpt-4o-mini)
+- **AI:** Groq API (llama-3.1-8b-instant, free tier)
 
 ## Why I built this
 
@@ -43,7 +43,7 @@ cd backend
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env       # add your OpenAI API key
+cp .env.example .env       # add your Groq API key (free at console.groq.com/keys)
 uvicorn main:app --reload --port 8000
 ```
 
@@ -74,8 +74,8 @@ Response:
 ```json
 {
   "ideas": [
-    "5 thrifted outfits that look designer",
-    "...",
+    "Upcycle old clothes into statement accessories and show off the eco-friendly DIY process.",
+    "..."
   ]
 }
 ```
